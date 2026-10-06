@@ -1,0 +1,74 @@
+/*
+ * Filename:    global.css
+ * Description: Tailwind entry stylesheet processed by NativeWind's Metro transform.
+ * Purpose:     Inject Tailwind's base, components, and utilities layers so the
+ *              className props used across the app resolve to native styles.
+ * Author:      Sunil+AI Assistant
+ * Date:        2026-09-30
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Scheme color variables consumed by tailwind.config.js
+ * (rgb(var(--color-*) / <alpha-value>)). Values are space-separated RGB
+ * channel triplets, NOT hex, so Tailwind alpha utilities keep working.
+ * :root = LIGHT palette; .dark:root = DARK palette (= existing Obsidian hex,
+ * dark mode visually unchanged). NativeWind swaps the active set globally when
+ * the color scheme flips.
+ * ponytail: edit the palette table in
+ * .agents/tasks/light-dark-toggle/design.md as the single source of color
+ * truth; these channels and src/theme/tokens.ts are hand-mirrored from it and
+ * must be changed in lockstep.
+ */
+:root {
+  /* LIGHT palette (channels: R G B) */
+  --color-violet: 109 40 217; /* #6d28d9 */
+  --color-violet-soft: 124 58 237; /* #7c3aed */
+  --color-emerald: 4 120 87; /* #047857 */
+  --color-danger: 185 28 28; /* #b91c1c */
+  --color-background: 255 255 255; /* #ffffff */
+  --color-surface-lowest: 248 250 252; /* #f8fafc */
+  --color-surface: 248 250 252; /* #f8fafc */
+  --color-surface-container: 241 245 249; /* #f1f5f9 */
+  --color-surface-high: 226 232 240; /* #e2e8f0 */
+  --color-outline: 203 213 225; /* #cbd5e1 */
+  --color-outline-variant: 203 213 225; /* #cbd5e1 */
+  --color-content-primary: 15 23 42; /* #0f172a */
+  --color-content-secondary: 71 85 105; /* #475569 */
+  --color-content-muted: 100 116 139; /* #64748b */
+  --color-zinc-950: 255 255 255; /* bg */
+  --color-zinc-900: 248 250 252; /* surface */
+  --color-zinc-800: 241 245 249; /* container */
+  --color-zinc-700: 226 232 240; /* high */
+  --color-zinc-500: 100 116 139; /* muted */
+  --color-zinc-400: 71 85 105; /* secondary */
+  --color-zinc-50: 15 23 42; /* primary text */
+}
+
+.dark:root {
+  /* DARK palette — EXISTING Obsidian hex, unchanged values */
+  --color-violet: 167 139 250; /* #a78bfa */
+  --color-violet-soft: 196 181 253; /* #c4b5fd */
+  --color-emerald: 52 211 153; /* #34d399 */
+  --color-danger: 239 68 68; /* #ef4444 */
+  --color-background: 9 9 11; /* #09090b */
+  --color-surface-lowest: 12 12 15; /* #0c0c0f */
+  --color-surface: 12 12 15; /* #0c0c0f */
+  --color-surface-container: 24 24 27; /* #18181b */
+  --color-surface-high: 39 39 42; /* #27272a */
+  --color-outline: 39 39 42; /* #27272a */
+  --color-outline-variant: 39 39 42; /* #27272a */
+  --color-content-primary: 250 250 250; /* #fafafa */
+  --color-content-secondary: 161 161 170; /* #a1a1aa */
+  --color-content-muted: 113 113 122; /* #71717a */
+  --color-zinc-950: 9 9 11;
+  --color-zinc-900: 12 12 15;
+  --color-zinc-800: 24 24 27;
+  --color-zinc-700: 39 39 42;
+  --color-zinc-500: 113 113 122;
+  --color-zinc-400: 161 161 170;
+  --color-zinc-50: 250 250 250;
+}

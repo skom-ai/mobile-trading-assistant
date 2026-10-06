@@ -1,0 +1,90 @@
+{
+  "name": "mobile-trading-assistant",
+  "version": "1.0.0",
+  "description": "Valtide Mobile — enterprise React Native (Expo) port of the Valtide web trading assistant. Wave 0 scaffold.",
+  "author": "Sunil+AI Assistant",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest --forceExit",
+    "test:watch": "jest --watch",
+    "lint": "expo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\""
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "cacheDirectory": "<rootDir>/.jest-cache",
+    "setupFiles": [
+      "<rootDir>/jest.setup.js"
+    ],
+    "moduleNameMapper": {
+      "^expo-modules-core$": "<rootDir>/node_modules/expo/node_modules/expo-modules-core",
+      "^expo-modules-core/(.*)$": "<rootDir>/node_modules/expo/node_modules/expo-modules-core/$1"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/(?!((jest-)?react-native|@react-native(-community)?|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg|nativewind|react-native-css-interop))"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "app/**/*.{ts,tsx}",
+      "!**/*.d.ts",
+      "!**/index.ts",
+      "!**/__tests__/**",
+      "!app/_layout.tsx",
+      "!app/(tabs)/_layout.tsx",
+      "!**/expo-env.d.ts",
+      "!**/nativewind-env.d.ts",
+      "!metro.config.js",
+      "!babel.config.js",
+      "!tailwind.config.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 95,
+        "branches": 95,
+        "functions": 95,
+        "lines": 95
+      }
+    }
+  },
+  "dependencies": {
+    "@expo/vector-icons": "15.1.1",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo": "57.0.26",
+    "expo-constants": "57.0.20",
+    "expo-linking": "57.0.11",
+    "expo-router": "57.0.24",
+    "expo-status-bar": "57.0.1",
+    "expo-system-ui": "57.0.4",
+    "nativewind": "4.2.7",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-reanimated": "4.7.0",
+    "react-native-safe-area-context": "5.10.1",
+    "react-native-screens": "4.28.0",
+    "react-native-web": "0.21.3",
+    "react-native-worklets": "0.13.0",
+    "zustand": "5.0.15"
+  },
+  "devDependencies": {
+    "@testing-library/react-native": "13.3.3",
+    "@types/jest": "30.0.0",
+    "@types/react": "19.2.2",
+    "detox": "20.51.4",
+    "eslint": "10.11.0",
+    "eslint-config-expo": "57.0.2",
+    "eslint-config-prettier": "10.1.8",
+    "jest": "30.5.2",
+    "jest-expo": "57.0.5",
+    "prettier": "3.9.9",
+    "react-test-renderer": "19.2.3",
+    "tailwindcss": "3.4.19",
+    "typescript": "5.9.2"
+  },
+  "private": true
+}

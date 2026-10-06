@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1791160812543" clover="3.2.0">
+  <project timestamp="1791160812543" name="All files">
+    <metrics statements="301" coveredstatements="295" conditionals="202" coveredconditionals="198" methods="142" coveredmethods="138" elements="645" coveredelements="631" complexity="0" loc="301" ncloc="301" packages="9" files="51" classes="51"/>
+    <package name="app">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/app/index.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.(tabs)">
+      <metrics statements="43" coveredstatements="38" conditionals="11" coveredconditionals="10" methods="19" coveredmethods="16"/>
+      <file name="_layout.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/app/(tabs)/_layout.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+      </file>
+      <file name="governance.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/app/(tabs)/governance.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+      <file name="news.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/app/(tabs)/news.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+      </file>
+      <file name="scanner.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/app/(tabs)/scanner.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="7" coveredconditionals="7" methods="5" coveredmethods="5"/>
+        <line num="23" count="8" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="26" count="8" type="stmt"/>
+        <line num="28" count="8" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="33" count="20" type="cond" truecount="5" falsecount="0"/>
+        <line num="41" count="8" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+      </file>
+      <file name="strategy.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/app/(tabs)/strategy.tsx">
+        <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="3" methods="7" coveredmethods="7"/>
+        <line num="32" count="9" type="stmt"/>
+        <line num="33" count="9" type="stmt"/>
+        <line num="34" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="35" count="28" type="stmt"/>
+        <line num="36" count="9" type="stmt"/>
+        <line num="37" count="9" type="stmt"/>
+        <line num="38" count="9" type="stmt"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="47" count="9" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="53" count="9" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms">
+      <metrics statements="39" coveredstatements="39" conditionals="60" coveredconditionals="59" methods="12" coveredmethods="12"/>
+      <file name="Badge.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/atoms/Badge.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="27" count="10" type="stmt"/>
+        <line num="40" count="10" type="stmt"/>
+        <line num="52" count="10" type="stmt"/>
+        <line num="74" count="102" type="cond" truecount="2" falsecount="0"/>
+        <line num="75" count="102" type="stmt"/>
+      </file>
+      <file name="Card.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/atoms/Card.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="25" count="135" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="135" type="stmt"/>
+      </file>
+      <file name="Chip.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/atoms/Chip.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="2" type="stmt"/>
+      </file>
+      <file name="Divider.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/atoms/Divider.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="24" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="30" type="stmt"/>
+      </file>
+      <file name="Icon.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/atoms/Icon.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="35" count="481" type="stmt"/>
+        <line num="36" count="481" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="481" type="stmt"/>
+      </file>
+      <file name="NumericValue.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/atoms/NumericValue.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="21" coveredconditionals="20" methods="3" coveredmethods="3"/>
+        <line num="29" count="145" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="144" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="68" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="59" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="44" type="stmt"/>
+        <line num="35" count="76" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="145" type="stmt"/>
+        <line num="41" count="145" type="cond" truecount="4" falsecount="0"/>
+        <line num="42" count="87" type="stmt"/>
+        <line num="53" count="145" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="145" type="stmt"/>
+        <line num="55" count="145" type="stmt"/>
+      </file>
+      <file name="RankNumber.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/atoms/RankNumber.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="34" count="71" type="stmt"/>
+      </file>
+      <file name="ThemedText.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/atoms/ThemedText.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="21" count="10" type="stmt"/>
+        <line num="38" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="9" type="stmt"/>
+      </file>
+      <file name="Typography.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/atoms/Typography.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+        <line num="46" count="1642" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="1642" type="stmt"/>
+        <line num="56" count="10" type="stmt"/>
+        <line num="79" count="129" type="cond" truecount="2" falsecount="0"/>
+        <line num="80" count="129" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules">
+      <metrics statements="9" coveredstatements="9" conditionals="20" coveredconditionals="20" methods="5" coveredmethods="5"/>
+      <file name="IndexTickerHeader.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/molecules/IndexTickerHeader.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="39" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="10" type="stmt"/>
+      </file>
+      <file name="SearchBar.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/molecules/SearchBar.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="36" count="27" type="stmt"/>
+        <line num="37" count="27" type="stmt"/>
+      </file>
+      <file name="SectionHeader.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/molecules/SectionHeader.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="31" count="18" type="stmt"/>
+        <line num="32" count="18" type="stmt"/>
+      </file>
+      <file name="StatCard.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/molecules/StatCard.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="32" count="53" type="stmt"/>
+        <line num="49" count="7" type="stmt"/>
+      </file>
+      <file name="TickerRow.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/molecules/TickerRow.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="49" count="65" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms">
+      <metrics statements="106" coveredstatements="105" conditionals="66" coveredconditionals="66" methods="54" coveredmethods="53"/>
+      <file name="GovernanceGuardrails.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/GovernanceGuardrails.tsx">
+        <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="35" count="36" type="stmt"/>
+        <line num="36" count="36" type="stmt"/>
+        <line num="58" count="18" type="stmt"/>
+        <line num="59" count="18" type="stmt"/>
+        <line num="60" count="18" type="stmt"/>
+        <line num="62" count="18" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="72" count="18" type="stmt"/>
+      </file>
+      <file name="GovernanceRecordCard.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/GovernanceRecordCard.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="30" count="29" type="stmt"/>
+        <line num="31" count="29" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+      </file>
+      <file name="GovernanceRecordModal.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/GovernanceRecordModal.tsx">
+        <metrics statements="9" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="4"/>
+        <line num="37" count="24" type="stmt"/>
+        <line num="53" count="16" type="stmt"/>
+        <line num="54" count="16" type="stmt"/>
+        <line num="58" count="16" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="63" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="65" count="6" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+      </file>
+      <file name="GovernanceScreen.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/GovernanceScreen.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+        <line num="33" count="24" type="stmt"/>
+        <line num="34" count="24" type="stmt"/>
+        <line num="44" count="11" type="stmt"/>
+        <line num="45" count="11" type="stmt"/>
+        <line num="46" count="11" type="stmt"/>
+        <line num="48" count="11" type="stmt"/>
+        <line num="49" count="24" type="stmt"/>
+        <line num="53" count="11" type="stmt"/>
+        <line num="89" count="28" type="stmt"/>
+        <line num="110" count="1" type="stmt"/>
+      </file>
+      <file name="GovernanceStatusBanner.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/GovernanceStatusBanner.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="29" count="12" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+      </file>
+      <file name="NewsCard.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/NewsCard.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="26" count="17" type="stmt"/>
+        <line num="27" count="17" type="stmt"/>
+        <line num="28" count="17" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+      </file>
+      <file name="NewsFeed.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/NewsFeed.tsx">
+        <metrics statements="14" coveredstatements="14" conditionals="12" coveredconditionals="12" methods="7" coveredmethods="7"/>
+        <line num="33" count="18" type="stmt"/>
+        <line num="34" count="18" type="stmt"/>
+        <line num="51" count="6" type="stmt"/>
+        <line num="52" count="6" type="stmt"/>
+        <line num="54" count="6" type="stmt"/>
+        <line num="55" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="6" type="stmt"/>
+        <line num="57" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="66" count="6" type="stmt"/>
+        <line num="69" count="21" type="stmt"/>
+        <line num="71" count="16" type="stmt"/>
+        <line num="74" count="10" type="stmt"/>
+      </file>
+      <file name="NewsTickerBar.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/NewsTickerBar.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
+        <line num="31" count="56" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="8" type="stmt"/>
+        <line num="48" count="28" type="stmt"/>
+        <line num="49" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="28" type="stmt"/>
+        <line num="53" count="3" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="NewsVerdictCard.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/NewsVerdictCard.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="32" count="8" type="stmt"/>
+        <line num="33" count="8" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="73" count="16" type="stmt"/>
+        <line num="75" count="3" type="stmt"/>
+      </file>
+      <file name="PlaceholderScreen.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/PlaceholderScreen.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="29" count="1" type="stmt"/>
+      </file>
+      <file name="ScannerAssetList.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/ScannerAssetList.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="29" count="10" type="stmt"/>
+        <line num="38" count="62" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+      </file>
+      <file name="ScannerHeader.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/ScannerHeader.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="26" count="10" type="stmt"/>
+        <line num="27" count="10" type="stmt"/>
+        <line num="28" count="10" type="stmt"/>
+        <line num="29" count="10" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="42" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="StrategyCockpit.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/StrategyCockpit.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="26" count="12" type="stmt"/>
+        <line num="27" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="11" type="stmt"/>
+        <line num="29" count="11" type="stmt"/>
+        <line num="30" count="11" type="stmt"/>
+        <line num="31" count="11" type="stmt"/>
+        <line num="36" count="11" type="stmt"/>
+        <line num="37" count="11" type="stmt"/>
+        <line num="38" count="11" type="stmt"/>
+        <line num="90" count="33" type="stmt"/>
+      </file>
+      <file name="StrategyPrecedent.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/StrategyPrecedent.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="27" count="100" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="70" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="40" type="stmt"/>
+        <line num="37" count="10" type="stmt"/>
+        <line num="38" count="10" type="stmt"/>
+        <line num="69" count="100" type="stmt"/>
+      </file>
+      <file name="StrategyTickerSummary.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/StrategyTickerSummary.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
+        <line num="39" count="9" type="stmt"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="81" count="3" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+      </file>
+      <file name="StrategyTimeframes.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/StrategyTimeframes.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="36" count="10" type="stmt"/>
+        <line num="37" count="10" type="stmt"/>
+        <line num="43" count="10" type="stmt"/>
+        <line num="57" count="30" type="stmt"/>
+        <line num="58" count="30" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+      </file>
+      <file name="StrategyVerdictBanner.tsx" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/components/organisms/StrategyVerdictBanner.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="30" count="10" type="stmt"/>
+        <line num="31" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.data">
+      <metrics statements="14" coveredstatements="14" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+      <file name="governance.ts" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/data/governance.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="38" count="13" type="stmt"/>
+        <line num="41" count="13" type="stmt"/>
+        <line num="44" count="13" type="stmt"/>
+      </file>
+      <file name="news.ts" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/data/news.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="56" count="12" type="stmt"/>
+        <line num="99" count="12" type="stmt"/>
+        <line num="125" count="12" type="stmt"/>
+        <line num="133" count="12" type="stmt"/>
+      </file>
+      <file name="scanner.ts" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/data/scanner.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+        <line num="40" count="13" type="stmt"/>
+        <line num="55" count="13" type="stmt"/>
+        <line num="70" count="62" type="cond" truecount="4" falsecount="0"/>
+        <line num="71" count="55" type="cond" truecount="4" falsecount="0"/>
+        <line num="72" count="36" type="cond" truecount="4" falsecount="0"/>
+        <line num="73" count="24" type="stmt"/>
+      </file>
+      <file name="strategy.ts" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/data/strategy.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="55" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services">
+      <metrics statements="24" coveredstatements="24" conditionals="10" coveredconditionals="10" methods="6" coveredmethods="6"/>
+      <file name="dataRepositories.ts" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/services/dataRepositories.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="46" count="11" type="stmt"/>
+        <line num="49" count="11" type="stmt"/>
+        <line num="52" count="11" type="stmt"/>
+        <line num="55" count="11" type="stmt"/>
+        <line num="58" count="11" type="stmt"/>
+        <line num="63" count="11" type="stmt"/>
+        <line num="66" count="11" type="stmt"/>
+        <line num="69" count="11" type="stmt"/>
+      </file>
+      <file name="geminiService.ts" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/services/geminiService.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="10" coveredconditionals="10" methods="4" coveredmethods="4"/>
+        <line num="52" count="106" type="stmt"/>
+        <line num="53" count="106" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="105" type="stmt"/>
+        <line num="55" count="105" type="stmt"/>
+        <line num="68" count="104" type="stmt"/>
+        <line num="69" count="1232" type="stmt"/>
+        <line num="70" count="104" type="stmt"/>
+        <line num="79" count="11" type="stmt"/>
+        <line num="82" count="63" type="stmt"/>
+        <line num="85" count="63" type="stmt"/>
+        <line num="86" count="63" type="stmt"/>
+        <line num="96" count="41" type="stmt"/>
+        <line num="100" count="41" type="stmt"/>
+        <line num="101" count="41" type="stmt"/>
+      </file>
+      <file name="repository.ts" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/services/repository.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="45" count="57" type="stmt"/>
+        <line num="50" count="48" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.store">
+      <metrics statements="48" coveredstatements="48" conditionals="17" coveredconditionals="15" methods="40" coveredmethods="40"/>
+      <file name="useGovernanceStore.ts" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/store/useGovernanceStore.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="10" coveredmethods="10"/>
+        <line num="20" count="225" type="stmt"/>
+        <line num="21" count="225" type="stmt"/>
+        <line num="48" count="7" type="stmt"/>
+        <line num="56" count="7" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="66" count="7" type="stmt"/>
+        <line num="68" count="7" type="stmt"/>
+        <line num="79" count="7" type="stmt"/>
+        <line num="80" count="225" type="stmt"/>
+        <line num="83" count="7" type="stmt"/>
+      </file>
+      <file name="useNewsStore.ts" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/store/useNewsStore.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12"/>
+        <line num="42" count="7" type="stmt"/>
+        <line num="52" count="7" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="64" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="65" count="3" type="stmt"/>
+        <line num="68" count="6" type="stmt"/>
+        <line num="72" count="7" type="stmt"/>
+        <line num="75" count="7" type="stmt"/>
+        <line num="78" count="7" type="stmt"/>
+        <line num="81" count="7" type="stmt"/>
+      </file>
+      <file name="useScannerStore.ts" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/store/useScannerStore.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="3" coveredconditionals="3" methods="8" coveredmethods="8"/>
+        <line num="36" count="7" type="stmt"/>
+        <line num="44" count="7" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="55" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="3" type="stmt"/>
+        <line num="59" count="8" type="stmt"/>
+        <line num="63" count="27" type="stmt"/>
+        <line num="66" count="27" type="stmt"/>
+      </file>
+      <file name="useStrategyStore.ts" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/store/useStrategyStore.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="8" coveredconditionals="6" methods="10" coveredmethods="10"/>
+        <line num="37" count="7" type="stmt"/>
+        <line num="39" count="7" type="stmt"/>
+        <line num="47" count="7" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="58" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="4" type="stmt"/>
+        <line num="61" count="4" type="stmt"/>
+        <line num="64" count="7" type="stmt"/>
+        <line num="68" count="31" type="stmt"/>
+        <line num="71" count="7" type="stmt"/>
+        <line num="72" count="61" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="src.theme">
+      <metrics statements="17" coveredstatements="17" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <file name="scheme-storage.ts" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/theme/scheme-storage.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="16" count="10" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+      </file>
+      <file name="tokens.ts" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/theme/tokens.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="19" count="10" type="stmt"/>
+        <line num="36" count="10" type="stmt"/>
+        <line num="53" count="10" type="stmt"/>
+        <line num="56" count="10" type="stmt"/>
+        <line num="66" count="10" type="stmt"/>
+        <line num="74" count="10" type="stmt"/>
+        <line num="97" count="10" type="stmt"/>
+      </file>
+      <file name="useThemeColors.ts" path="/Users/eagles/data/outskill/capstone/valtide-mobile/mobile-trading-assistant/src/theme/useThemeColors.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="18" count="744" type="stmt"/>
+        <line num="19" count="744" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>
